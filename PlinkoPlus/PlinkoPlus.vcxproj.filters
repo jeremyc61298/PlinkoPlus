@@ -15,13 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="plinko.cpp">
-      <Filter>Source Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="plinko.in">
       <Filter>Resource Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plinko.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plinko.out">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
