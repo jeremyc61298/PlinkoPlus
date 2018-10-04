@@ -145,6 +145,7 @@
     <ClCompile Include="plinko.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="plinko.ans" />
     <None Include="plinko.out" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
